@@ -5,9 +5,9 @@
   "main": "app.js",
   "scripts": {
     "start": "node ./app.js",
-  	"precommit": "standard  wechat-lib/**/*.js config/**/*.js  app.js| snazzy",
+    "precommit": "standard  wechat-lib/**/*.js config/**/*.js  app.js| snazzy",
     "standard": "standard  wechat-lib/**/*.js config/**/*.js",
-	  "standfix": "standard app/**/*.js wechat/**/*.js wechat-lib/**/*.js config/**/*.js app.js --fix",
+    "standfix": "standard app/**/*.js wechat/**/*.js wechat-lib/**/*.js config/**/*.js app.js --fix",
     "test": "echo\"Error: no test specified\\\" && exit 1"
   },
   "keywords": [
